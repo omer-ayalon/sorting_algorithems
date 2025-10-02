@@ -101,10 +101,9 @@ def quick_sort_algo(arr, low, high, depth):
 
     return arr
 
-
 def swap(arr, idx1, idx2):
+
     temp = arr[idx1]
     arr[idx1] = arr[idx2]
     arr[idx2] = temp
     return arr
-
